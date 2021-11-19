@@ -1,9 +1,10 @@
 {
   "ambiente":
     {
-      "url_amb": "http://15551.qa.rcontrol.com.mx/User/LogOut"
+      "url_amb": "https://cpp.qa.rcontrol.com.mx/User/LogOut"
     },
-  "credenciales":{
+  "credenciales":
+  {
       "credenciales_ayvi":
         {
         "cliente": "ayvi",
@@ -14,20 +15,14 @@
         {
         "cliente": "autozone",
         "user": "admin_autozone",
-        "password": "Password135#"
-      },  
-    "credenciales_orbis":
-      {
-      "cliente": "orbis",
-      "user": "admin_orbis",
-      "password": "Soporte135*"
-      },
-      "credenciales_ferrero":
+        "password": "Password123$"
+        },
+        "credenciales_orbis":
         {
-        "cliente": "ferrero",
-        "user": "admin_ferrero_corp",
-        "password": "Password135#"
-        }
+        "cliente": "orbis",
+        "user": "admin_orbis",
+        "password": "Soporte135*"
+      }
     },
   "modulos":{
     "planeacion":
@@ -44,13 +39,11 @@
       "salida": "EXIT"
       },
       "tendering":
-        {
-          "asignacion": "TENDERING_OPERATIVE_REPORT"
-        },
-      "reporteria":{
-        "sabana_de_datos": ""
+      {
+        "asignacion": "TENDERING_OPERATIVE_REPORT"
+      }
     }
-  },
+    ,
   "archivos":
     {
     "carga_citas_txt_iron_demo": "Citas_pruebas_qa.txt",
@@ -67,5 +60,19 @@
     "Detalles_de_viaje":{
       "pedido":"PEDIDO1367",
       "Cita_de_entrega":"2021-08- 20:00:00"
+    },
+    "Detalles_de_asignacion ":{
+      "numero_viaje":{
+        "viaje1":"RC55521"
+      },
+      "linea_conductor":{
+        "linea1":"Cliente recoge"
+      },
+      "placas":{
+        "placa1":"WLU-972-XL"
+      },
+      "conductor":{
+        "conductor1": "BUZO911022 Omar Buendia Zamudio"
+      }
     }
-}
+  }
